@@ -1,0 +1,12 @@
+# temporary python files
+*.pyc
+
+# damn you DS_STORE
+.DS_Store
+
+# Prevent adding of dist
+dist/
+*.egg-info
+
+# Prevent adding of dev app
+example_fb_iframe

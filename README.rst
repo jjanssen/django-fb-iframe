@@ -30,5 +30,4 @@ In your settings module...
 Credits
 ------------
 
-This app contains a snippet of fandjango's middleware.
-  `fandjango <https://github.com/jgorset/fandjango>`_.
+This app contains a snippet of `fandjango's <https://github.com/jgorset/fandjango>`_ middleware.

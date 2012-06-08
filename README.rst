@@ -1,9 +1,9 @@
 Django Facebook iFrame
 ======================
 
-Django and Facebook do not get along. When embedding a microsite into Facebook it will call an iframe with a POST request. Of course your Django project will return a CSRF verification failed.
+Django and Facebook do not get along. When embedding a microsite into Facebook it will call an iframe with a ``POST`` request. Of course your Django project will return a CSRF verification failed.
 
-This little Django app will prevent that specific error by converting a POST request with the key signed_request to a GET request. Of course this is just plain ugly, but Facebook should not mess with our application.
+This little Django app will prevent that specific error by converting a POST request with the key ``signed_request`` to a ``GET`` request. Of course this is just plain ugly, but Facebook should not mess with our application.
 
 
 Installation
